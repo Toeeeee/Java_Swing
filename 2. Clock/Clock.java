@@ -60,7 +60,7 @@
           
           g.setFont(new Font("Arial", Font.BOLD, 10));
       }
-
+   
       public void drawHands(Graphics g, double second, double minute, double hours) {
           double rSecond = (second * 6) * (Math.PI) / 180;
           double rMinute = ((minute + (second / 60)) * 6) * (Math.PI) / 180;
